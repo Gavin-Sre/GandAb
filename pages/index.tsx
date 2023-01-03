@@ -23,8 +23,13 @@ export default function Home() {
               <h1>Happy Anniversary💖💖</h1>
             </div>
           </div>
+          <div className={`${styles.introWrapperFlex} container text-center`}>
+            <div className="row m p-2 gap-3">
+              <div className={`${styles.box1} col`}>Box1</div>
+              <div className={`${styles.box2} col` }>Box2</div>
+            </div>
+          </div>
         </div>
-          
       </main>
     </>
   )

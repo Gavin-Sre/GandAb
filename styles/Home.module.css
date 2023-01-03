@@ -1,7 +1,7 @@
 
 .titleWrapper {
   width: 100%;
-  height: 500px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -10,7 +10,6 @@
 .titleImage {
   width: 100%;
   height:100%;
-  /* position: absolute; */
   object-fit: cover;
 }
 
@@ -18,10 +17,21 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  color: black;
+  color: white;
+  text-shadow: black 0px 0px 4px;
+  top: 40%;
 }
 
-@media only screen and (min-width: 600px) {
+.introWrapperFlex {
+}
+.box1 {
+  background-color: blue;
+}
+.box2 {
+  background-color: red;
+}
+
+@media only screen and (min-width: 576px) {
   /* For tablets: */
   .titleWrapper {
     height: 600px;
