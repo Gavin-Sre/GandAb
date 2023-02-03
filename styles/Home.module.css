@@ -7,7 +7,7 @@
   z-index: 1;
 }
 
-.titleImage {
+.titleImage, .introImage {
   width: 100%;
   height:100%;
   object-fit: cover;
@@ -24,11 +24,15 @@
 
 .introWrapperFlex {
 }
+
+
 .box1 {
+  height: 500px;
   background-color: blue;
+  position: relative;
 }
 .box2 {
-  background-color: red;
+  background-color: rgb(232, 232, 232);
 }
 
 @media only screen and (min-width: 576px) {

@@ -25,8 +25,13 @@ export default function Home() {
           </div>
           <div className={`${styles.introWrapperFlex} container text-center`}>
             <div className="row m p-2 gap-3">
-              <div className={`${styles.box1} col`}>Box1</div>
-              <div className={`${styles.box2} col` }>Box2</div>
+              <div className={`${styles.box1} col`}>
+                <Image className={styles.introImage} alt='couple sitting and smile' src={"/../public/images/IMG_9668.JPG"} fill/>
+              </div>
+              <div className={`${styles.box2} col-5` }>
+                <h2>Title text</h2>
+                <p>Some text</p>
+              </div>
             </div>
           </div>
         </div>
