@@ -22,17 +22,24 @@
   top: 40%;
 }
 
-.introWrapperFlex {
+.questionAnswer {
+  position: relative;
+  text-align: center;
+}
+
+.introWrapper {
+  margin-top: 0px;
 }
 
 
 .box1 {
   height: 500px;
-  background-color: blue;
   position: relative;
 }
 .box2 {
   background-color: rgb(232, 232, 232);
+  height: 100%;
+  position: relative;
 }
 
 @media only screen and (min-width: 576px) {
@@ -40,6 +47,9 @@
   .titleWrapper {
     height: 600px;
   }
+  /* .introWrapper {
+    margin-top: 10px;
+  } */
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const About = () => {
+const TimeLine = () => {
   return (
     <div>About US</div>
   )
 }
 
-export default About;
+export default TimeLine;
